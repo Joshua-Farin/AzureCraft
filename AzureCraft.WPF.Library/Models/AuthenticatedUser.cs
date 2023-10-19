@@ -13,5 +13,3 @@ namespace AzureCraft.WPF.Library.Models
 		public string UserName { get; set; }
 	}
 }
-
-
