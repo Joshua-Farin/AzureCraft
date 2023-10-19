@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace AzureCraft.WPF.Library.Models
 {
-	internal class SaleDetailModel
+	public class SaleDetailModel
 	{
+		public int ProductId { get; set; }
+		public int Quantity { get; set; }
 	}
 }

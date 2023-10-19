@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCraft.WPF", "AzureCraft.WPF\AzureCraft.WPF.csproj", "{4AEF2A80-6A90-4A49-9362-ED12B983656B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCraft.WPF", "AzureCraft.WPF\AzureCraft.WPF.csproj", "{4AEF2A80-6A90-4A49-9362-ED12B983656B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCraft.WPF.Library", "AzureCraft.WPF.Library\AzureCraft.WPF.Library.csproj", "{1376310C-A396-4F75-95EA-D93F02171620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCraft.WPF.Library", "AzureCraft.WPF.Library\AzureCraft.WPF.Library.csproj", "{1376310C-A396-4F75-95EA-D93F02171620}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AzureCraft.Data", "AzureCraft.Data\AzureCraft.Data.sqlproj", "{B8715DCF-D9FF-4E6A-8F54-BAD42FBA1B3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCraft.API", "AzureCraft.API\AzureCraft.API.csproj", "{A407639E-6EB5-499E-9ECE-7DB1D93B476F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCraft.API", "AzureCraft.API\AzureCraft.API.csproj", "{A407639E-6EB5-499E-9ECE-7DB1D93B476F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCraft.API.Library", "AzureCraft.API.Library\AzureCraft.API.Library.csproj", "{4F7E65BA-6633-4667-B447-054A50604C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCraft.API.Library", "AzureCraft.API.Library\AzureCraft.API.Library.csproj", "{4F7E65BA-6633-4667-B447-054A50604C99}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C327D175-0816-417A-818E-20114FDAF8E2}"
 EndProject
@@ -19,13 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A29DB272-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{06BD32EF-E0AB-45DC-872F-FC2B960367D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCraft.Portal", "AzureCraft.Portal\AzureCraft.Portal.csproj", "{9B65061C-BCBB-4106-A3CD-88921FDE9E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCraft.Portal", "AzureCraft.Portal\AzureCraft.Portal.csproj", "{9B65061C-BCBB-4106-A3CD-88921FDE9E1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{76BECCA6-702B-4316-9CCC-60C39654D601}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C6D8DE91-F0F7-4283-BC51-7BAD9D2B4C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCraft.Test", "AzureCraft.Test\AzureCraft.Test.csproj", "{CDDB8919-2711-4A87-AB52-44D353E395FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCraft.Test", "AzureCraft.Test\AzureCraft.Test.csproj", "{CDDB8919-2711-4A87-AB52-44D353E395FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

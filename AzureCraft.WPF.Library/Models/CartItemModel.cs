@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AzureCraft.WPF.Library.Models
 {
-	internal class CartItemModel
+	public class CartItemModel
 	{
+		public ProductModel Product { get; set; }
+		public int QuantityInCart { get; set; }
+
 	}
 }
