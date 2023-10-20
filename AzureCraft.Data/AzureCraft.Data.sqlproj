@@ -56,5 +56,25 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="Tables" />
+    <Folder Include="dbo\StoredProcedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Inventory.sql" />
+    <Build Include="Tables\Product.sql" />
+    <Build Include="Tables\Sale.sql" />
+    <Build Include="Tables\SaleDetail.sql" />
+    <Build Include="Tables\User.sql" />
+    <Build Include="dbo\StoredProcedures\spInventory_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spInventory_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spProduct_GetById.sql" />
+    <Build Include="dbo\StoredProcedures\spSale_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spSale_Lookup.sql" />
+    <Build Include="dbo\StoredProcedures\spSale_SaleReport.sql" />
+    <Build Include="dbo\StoredProcedures\spSaleDetail_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spUser_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spUserLookup.sql" />
   </ItemGroup>
 </Project>
